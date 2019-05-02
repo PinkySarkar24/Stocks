@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/list"
+            android:title="My Stock List" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/alerts"
+            android:title="Alerts" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/saved"
+            android:title="Saved Items" />
+    </group>
+
+    <item android:title="Live Markets">
+        <menu>
+            <item
+                android:id="@+id/market"
+                android:icon="@drawable/market"
+                android:title="Markets" />
+            <item
+                android:id="@+id/calendar"
+                android:icon="@drawable/calendar"
+                android:title="Economic Calendar" />
+            <item
+                android:id="@+id/trending"
+                android:icon="@drawable/stocks"
+                android:title="Trending Stocks" />
+        </menu>
+    </item>
+    <item android:title="Content">
+        <menu>
+            <item
+                android:id="@+id/news"
+                android:icon="@drawable/news2"
+                android:title="News" />
+            <item
+                android:id="@+id/analysis"
+                android:icon="@drawable/analysis"
+                android:title="Analysis" />
+        </menu>
+    </item>
+
+</menu>
